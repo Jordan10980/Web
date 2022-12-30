@@ -45,7 +45,7 @@ const Sedeconnecter=()=>{
                   {/* Show different links based on the user's login status */}
                   {isLoggedIn ? (
                   <>
-                      <Link to="/ProjetWeb" class="nav-link">Accueil</Link>
+                      <Link to="/Web" class="nav-link">Accueil</Link>
                       <Link to="/api" class="nav-link">Carte</Link>
                       <Link to="/contact" class="nav-link">Contact</Link>
                       <Link to="/apropos" class="nav-link">A propos</Link>
@@ -57,7 +57,7 @@ const Sedeconnecter=()=>{
                   </>
                   ) : (
                   <>
-                      <Link to="/ProjetWeb" class="nav-link">Accueil</Link>
+                      <Link to="/Web" class="nav-link">Accueil</Link>
                       <Link to="/api" class="nav-link">Carte</Link>
                       <Link to="/contact" class="nav-link">Contact</Link>
                       <Link to="/apropos" class="nav-link">A propos</Link>
@@ -90,7 +90,7 @@ const Sedeconnecter=()=>{
 
             <div className="box">
                 <h3>navigation</h3>
-                <Link to="/ProjetWeb" className="fas fa-arrow-right">Accueil</Link>
+                <Link to="/Web" className="fas fa-arrow-right">Accueil</Link>
                 <Link to="/api" className="fas fa-arrow-right">Carte</Link>
                 <Link to="/contact" className="fas fa-arrow-right">Contact</Link>
                 <Link to="/apropos" className="fas fa-arrow-right">A propos</Link>
